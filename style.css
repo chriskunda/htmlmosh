@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+   
+    
+    
+}
+
+
+a {
+text-decoration: none;
+color: white;
+}
+
+nav{
+
+ width: 100%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-bottom: 1px solid;
+    
+    top: 0;
+    background: black;
+    color: gray;
+}
+
+.logo-container{
+    padding-top: 15px;
+    color: white;
+
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+   
+
+}
+
+.resume-container{
+    padding-top: 10px;
+
+}
+
+.resume-container > button {
+    background-color: rgb(216, 216, 216);
+    border-width: 0;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.Names-container {
+   
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 160%;
+}
+
+.Names-container > button {
+    margin-top: 10px;
+    border-width: 0px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    
+
+}
+
+.Names-container > p1 {
+    font-size:larger;
+    font-weight: bold;
+}
+
+.Names-container > h1 {
+    font-weight:bolder;
+}
+
+.Names-container > p {
+    
+    font-size:small;
+   font-size: 30px;
+}
+
+.transparent-btn {
+  background: transparent;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}

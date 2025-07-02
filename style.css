@@ -1,20 +1,21 @@
 *{
     margin: 0;
     font-family: sans-serif;
-   
-    
-    
+     
 }
 
+html, body {
+    height: 100%;
+}
 
 a {
-text-decoration: none;
+text-decoration:none;
 color: white;
 }
 
 nav{
 
- width: 100%;
+    width: 100%;
     
     padding-top: 10px;
     padding-bottom: 10px;
@@ -98,9 +99,15 @@ nav{
 }
 
 .transparent-btn {
-  background: transparent;
-  border: none;
-  color: black;
+  border: 50px;;
+  color: rgb(81, 81, 81);
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.icons-container  {
+    display:flex;
+    flex-direction: row;
+    background-color: #f12c2c;
+    margin-bottom: 60px;
 }

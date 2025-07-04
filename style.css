@@ -26,42 +26,28 @@ nav{
 
     border-bottom: 1px solid;
     
-    top: 0;
+    
     background: black;
     color: gray;
 }
 
 .logo-container{
-    padding-top: 15px;
+    padding-left: 55%;
     color: white;
 
 }
 
 .links-container{
+   padding-left: 0%;
+    padding-top: 5px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    padding-top: 20px;
+    gap: 40px;
    
 
 }
 
-.resume-container{
-    padding-top: 10px;
-    
 
-}
-
-.resume-container > button {
-   
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    border: 1px white solid;
-}
 
 .Names-container {
    
@@ -103,6 +89,7 @@ nav{
 
 
 .soft {
+    font-family: "Outfit", sans-serif;
     letter-spacing: 12.5px;
     font-size: 15px;
     height: 19px; 
@@ -110,6 +97,7 @@ nav{
 }
 
 .transparent-btn {
+    font-family: "Outfit", sans-serif;
     color: rgb(229, 218, 218);
     padding: 10px 20px;
     cursor: pointer;
@@ -150,3 +138,4 @@ footer  {
 .icons-container > a > i {
     font-size: 20px;
 }
+

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+   background-color: black;
+}
+
+nav {
+   position: fixed;
+    width: 100%;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-bottom: 1px gray solid;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+.links-about {
+    padding-left: 0%;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.Port {
+    padding-left: 55%;
+    
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    color: rgb(229, 218, 218);
+}
+
+.about {
+    
+    margin-top: 160px;
+    margin-left: 90px;
+}
+
+.akarongo {
+    text-decoration: underline rgb(173, 173, 247);
+    color: white;
+}
+
+.munsi {
+    font-family: "Outfit", sans-serif;
+    margin-top: 5px;
+}
+
+.about-info {
+    font-family: "Outfit", sans-serif;
+    margin-top: 70px;
+   
+}

@@ -20,10 +20,11 @@ nav {
 
     border-bottom: 1px gray solid;
     background-color: black;
-    color: white;
-   
     
+   
 }
+
+
 
 .links-about {
     padding-left: 0%;
@@ -36,7 +37,7 @@ nav {
 
  a {
     text-decoration: none;
-    color: white;
+    color: rgb(224, 212, 212);
 }
 
 
@@ -45,32 +46,111 @@ nav {
     
 }
 
+.bigparent-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .parent-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
-    color: rgb(229, 218, 218);
+   
 }
 
 .about {
     
-    margin-top: 160px;
+    margin-top: 200px;
     margin-left: 90px;
 }
 
 .akarongo {
+    font-family: "Arimo", sans-serif;
     text-decoration: underline rgb(173, 173, 247);
-    color: white;
+    color: rgb(224, 212, 212);
 }
 
 .munsi {
     font-family: "Outfit", sans-serif;
     margin-top: 5px;
+    color: rgb(229, 218, 218);
 }
 
 .about-info {
     font-family: "Outfit", sans-serif;
     margin-top: 70px;
+    color: rgb(229, 218, 218);
    
 }
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: yellow;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+
+.staffzohasi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.skillsword {
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 50px;
+    color: rgb(224, 212, 212);
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+
+
+}
+
+ul {
+  list-style-type: disc;
+  line-height: 1.6;
+  font-family: "Outfit", sans-serif;
+ margin-left: 35px;
+ margin-top: 35px;
+ color: rgb(229, 218, 218);
+
+}
+
+li {
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+}
+
+strong {
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.ul-list2 {
+    margin-right: 20px;
+}
+
+.projects-head {
+    font-family: "Arimo", sans-serif;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    color: rgb(224, 212, 212);
+}
+
+h2 {
+    font-family: "Arimo", sans-serif;
+    color: rgb(224, 212, 212);
+}
+
+

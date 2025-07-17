@@ -141,6 +141,17 @@ strong {
     margin-right: 20px;
 }
 
+h2 {
+    font-family: "Arimo", sans-serif;
+    color: rgb(224, 212, 212);
+}
+
+.projects{
+    background-color: yellow;
+    padding-bottom: 20%;
+    padding: auto;
+}
+
 .projects-head {
     font-family: "Arimo", sans-serif;
     margin-top: 250px;
@@ -148,9 +159,50 @@ strong {
     color: rgb(224, 212, 212);
 }
 
-h2 {
-    font-family: "Arimo", sans-serif;
-    color: rgb(224, 212, 212);
+
+.projects1-holder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: pink;
+    padding-bottom: 30%;
+    
+    
 }
 
+.project-ab-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: grey;
+    
+
+}
+
+.project-a {
+background-color: rgb(46, 46, 47);
+width: 50%;
+padding-top: 100px;
+padding-bottom: 70px;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+border-radius: 10px;
+height: 50%;
+border-color: rgb(224, 212, 212);
+}
+
+.project-b {
+width: 50%;
+background-color: rgb(46, 46, 47);
+padding-top: 100px;
+padding-bottom: 70px;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+border-radius: 10px;
+height: 50%;
+border-color: rgb(224, 212, 212);
+}
 

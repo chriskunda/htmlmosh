@@ -156,39 +156,39 @@ h2 {
     width: 45%;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.292);
+    display: flex;
+    flex-direction: column;
 }
 
-
-.projects > p,
-.projects > h1,
-.projects > div {
-    color: white;
+.photodi {
+  background-color: yellow;
+  width: 100%;
+  height: 60%;
 }
 
-.h1 {
-    border: solid 1px green;
-    padding: 10px;
-    width: 100px;
-    border-radius: 5px;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: normal;
+.ppp {
+
+width: 100%;
+height: 40%;
+
 }
 
-.h1:hover {
-    background-color: rgba(0, 128, 0, 0.158);
+.start{
+background-color: red;
+width: 100%;
+height: 33%;
 }
 
+.para{
+background-color: green;
+width: 100%;
+height: 33%;
+}
 
-
-.div {
-    border: solid 1px green;
-    padding: 10px;
-    width: 100px;
-    border-radius: 5px;
-    margin: 0 auto;
-    cursor: pointer;
+.end{
+background-color: blue;
+width: 100%;
+height: 33%;
 }
 
 

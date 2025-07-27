@@ -1,265 +1,196 @@
-*{
-    margin: 0;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  font-family: sans-serif;
 }
 
 body {
-   background-color: black;
+  background-color: black;
 }
 
 nav {
-   position: fixed;
-    width: 100%;
-    
-    padding-top: 10px;
-    padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-    border-bottom: 1px gray solid;
-    background-color: black;
-    
-   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border-bottom: 1px gray solid;
+  background-color: black;
 }
-
-
 
 .links-about {
-    padding-left: 0%;
-    padding-top: 5px;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    
+  padding-left: 0%;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
- a {
-    text-decoration: none;
-    color: rgb(224, 212, 212);
+a {
+  text-decoration: none;
+  color: rgb(224, 212, 212);
 }
-
 
 .Port {
-    padding-left: 55%;
-    
+  padding-left: 55%;
 }
 
 .bigparent-container {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .parent-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .about {
-    
-    margin-top: 200px;
-    margin-left: 90px;
+  margin-top: 200px;
+  margin-left: 90px;
 }
 
 .akarongo {
-    font-family: "Arimo", sans-serif;
-    text-decoration: underline rgb(173, 173, 247);
-    color: rgb(224, 212, 212);
+  font-family: "Arimo", sans-serif;
+  text-decoration: underline rgb(173, 173, 247);
+  color: rgb(224, 212, 212);
 }
 
 .munsi {
-    font-family: "Outfit", sans-serif;
-    margin-top: 5px;
-    color: rgb(229, 218, 218);
+  font-family: "Outfit", sans-serif;
+  margin-top: 5px;
+  color: rgb(229, 218, 218);
 }
 
 .about-info {
-    font-family: "Outfit", sans-serif;
-    margin-top: 70px;
-    color: rgb(229, 218, 218);
-   
+  font-family: "Outfit", sans-serif;
+  margin-top: 70px;
+  color: rgb(229, 218, 218);
 }
 
 .photo {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    background-color: yellow;
-    margin-top: 100px;
-    margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  background-color: yellow;
+  margin-top: 100px;
+  margin-right: 80px;
 }
 
 .staffzohasi {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    padding-top: 100px;
-    text-align: center;
-    
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  padding-top: 100px;
+  text-align: center;
 }
 .skillsword {
-    font-family: "Arimo", sans-serif;
-    margin-bottom: 50px;
-    color: rgb(224, 212, 212);
+  font-family: "Arimo", sans-serif;
+  margin-bottom: 50px;
+  color: rgb(224, 212, 212);
 }
 
 .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 50px;
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
 }
 
 ul {
   list-style-type: disc;
   line-height: 1.6;
   font-family: "Outfit", sans-serif;
- margin-left: 35px;
- margin-top: 35px;
- color: rgb(229, 218, 218);
-
+  margin-left: 35px;
+  margin-top: 35px;
+  color: rgb(229, 218, 218);
 }
 
 li {
-    font-family: "Outfit", sans-serif;
-    text-align: left;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
 }
 
 strong {
-    font-family: "Outfit", sans-serif;
-    
+  font-family: "Outfit", sans-serif;
 }
 
 .ul-list2 {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 h2 {
-    font-family: "Arimo", sans-serif;
-    color: rgb(224, 212, 212);
+  font-family: "Arimo", sans-serif;
+  color: rgb(224, 212, 212);
 }
 
-.projects{
-    
-    padding-bottom: 10%;
-    
+.projects {
+  padding-bottom: 10%;
 }
 
 .projects-head {
-    font-family: "Arimo", sans-serif;
-    margin-top: 250px;
-    margin-bottom: 50px;
-    color: rgb(224, 212, 212);
+  font-family: "Arimo", sans-serif;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  color: rgb(224, 212, 212);
 }
 
-
-.projects1-holder {
-    display: flex;
-    flex-direction: column;
+.projects-holder {
     width: 100%;
-    
-    padding-bottom: 30%;
-    
-    
-}
-
-.project-ab-holder {
     display: flex;
     flex-direction: row;
-   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.project-a {
-display: flex;
-flex-direction: column;
-width: 50%;
-padding-top: 100px;
-padding-bottom: 150px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 40px;
-border-radius: 10px;
-border: 0.5px rgb(35, 35, 36) solid;
-background-color: #0e0e1089;
+.projects-holder > div {
+    height: 300px;
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.292);
 }
 
-.pic-a {
-    
-    margin-top: -100px;
 
-}
-
-.pic-a>img {
-    height: 50%;
-    width: 100%;
-    border-radius: 10px;
-    
-}
-
-.word-a {
-    
-    background-color: #b3241189;
-    height: 50%;
-
-    padding-top: 130px;
-    
-}
-
-.word-a>h5{
+.projects > p,
+.projects > h1,
+.projects > div {
     color: white;
 }
 
-.project-b {
-width: 50%;
-
-padding-top: 100px;
-padding-bottom: 150px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 40px;
-border-radius: 10px;
-border: 0.5px rgb(35, 35, 36) solid;
-background-color: #0e0e1089;
+.h1 {
+    border: solid 1px green;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
 }
 
-.project-cd-holder {
-    display: flex;
-    flex-direction: row;
-   
-    height: 270px;
-    align-items: center;
+.h1:hover {
+    background-color: rgba(0, 128, 0, 0.158);
 }
 
-.project-c {
 
-width: 50%;
-padding-top: 100px;
-padding-bottom: 150px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 40px;
-border-radius: 10px;
-border: 0.5px rgb(35, 35, 36) solid;
-color: white;
-background-color: #0e0e1089;
+
+.div {
+    border: solid 1px green;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-.project-d {
 
-width: 50%;
-padding-top: 100px;
-padding-bottom: 150px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 40px;
-border-radius: 10px;
-border: 0.5px rgb(35, 35, 36) solid;
-background-color: #0e0e1089;
-}
+
+

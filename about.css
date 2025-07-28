@@ -167,9 +167,11 @@ h2 {
 }
 
 .ppp {
-
+display: flex;
+flex-direction: column;
 width: 100%;
 height: 40%;
+
 
 }
 
@@ -177,20 +179,54 @@ height: 40%;
 background-color: red;
 width: 100%;
 height: 33%;
+display: flex;
+flex-direction: row;
+gap: 430px;
+}
+
+.agap {
+color: white;
+padding-left: 20px;
+}
+
+.LL{
+
+
 }
 
 .para{
 background-color: green;
 width: 100%;
 height: 33%;
+color: white;
+
+}
+
+.para>p {
+  padding-right: 364px;
 }
 
 .end{
 background-color: blue;
 width: 100%;
 height: 33%;
+display: flex;
+flex-direction: row;
+
 }
 
+.end>p{
+  border: 1px solid rgba(128, 128, 128, 0.292);
+  background-color: gray;
+  border-radius: 60px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 
 

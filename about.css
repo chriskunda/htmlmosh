@@ -262,6 +262,42 @@ color: white;
   font-family: "Outfit", sans-serif;
 }
 
+.contact{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.foto{
+  background-color: red;
+  width: 50%;
+  height: 450px;
+
+}
+
+.form-holder{
+  background-color: yellow;
+  width: 50%;
+  height: 450px;
+  margin: 5px;
+  padding: 20px;
+
+}
+
+.form-holder>form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-title>hr{
+  width:120px ;
+  height:5px ;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+}
 
 
 

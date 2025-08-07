@@ -267,17 +267,39 @@ color: white;
   flex-direction: row;
   width: 100%;
   height: auto;
+  margin-top: 50px;
 }
 
 .foto{
-  background-color: red;
+ 
   width: 50%;
   height: 450px;
+  color: aliceblue;
+  margin-top: 120px;
+}
 
+.break{
+  margin-right: 255px;
+  font-size: 45px;
+  font-family: "Outfit", sans-serif;
+  color: rgb(224, 212, 212);
+}
+
+.break2{
+  font-size: 45px;
+  font-family: "Outfit", sans-serif;
+  color: rgb(224, 212, 212);
+}
+
+.break3{
+  margin-right: 149px;
+  font-size: 45px;
+  font-family: "Outfit", sans-serif;
+  color: rgb(224, 212, 212);
 }
 
 .form-holder{
-  background-color: yellow;
+  
   width: 50%;
   height: 450px;
   margin: 5px;
@@ -290,14 +312,88 @@ color: white;
   flex-direction: column;
   gap: 10px;
 }
+.form-title{
+margin-left: 100px;
+color: rgba(245, 245, 245, 0.731);
+}
+
+.form-title>h2{
+  
+  margin-right: 325px;
+  font-family: "Arimo", sans-serif;
+  color: rgba(245, 245, 245, 0.731);
+}
 
 .form-title>hr{
   width:120px ;
   height:5px ;
-  background-color: #fff;
+  background-color: rgba(245, 245, 245, 0.731);
   border-radius: 10px;
   border: none;
+  margin-bottom: 10px;
 }
 
+.form-names{
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-left: 100px;
+  margin-right: 180px;
+  color: rgb(82, 82, 82);
+  background-color: #eaeaeae3;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
 
+.form-email{
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-left: 100px;
+  margin-right: 180px;
+  color: rgb(82, 82, 82);
+  background-color: #eaeaeae3;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
+
+.form-text{
+  border: #ffffffe3;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+  margin-left: 100px;
+  margin-right: 180px;
+  color: rgb(82, 82, 82);
+  background-color: #eaeaeae3;
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
+
+.form-button{
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 100px;
+  margin-right: 180px;
+  background-color: rgba(245, 245, 245, 0.731);
+  font-weight: bold;
+}
+
+.nyuma{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  color: rgba(224, 212, 212, 0.854);
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
 

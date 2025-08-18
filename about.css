@@ -264,7 +264,8 @@ justify-content: space-between;
   font-size: smaller;
 }
 .start>a>i {
-  padding-top: 5px;
+  padding-top: 10px;
+  margin-right: 10px;
 }
 
 .para{
@@ -315,7 +316,7 @@ color: white;
 
 .foto{
  
-  width: 50%;
+  margin-left: 120px;
   height: 450px;
   color: aliceblue;
   margin-top: 120px;
@@ -347,7 +348,7 @@ color: white;
   height: 450px;
   margin: 5px;
   padding: 20px;
-
+  margin-left: 50px;
 }
 
 .form-holder>form{
@@ -356,13 +357,13 @@ color: white;
   gap: 10px;
 }
 .form-title{
-margin-left: 100px;
+
 color: rgba(245, 245, 245, 0.731);
 }
 
 .form-title>h2{
   
-  margin-right: 325px;
+  margin-right: 290px;
   font-family: "Arimo", sans-serif;
   color: rgba(245, 245, 245, 0.731);
 }
@@ -374,6 +375,7 @@ color: rgba(245, 245, 245, 0.731);
   border-radius: 10px;
   border: none;
   margin-bottom: 10px;
+  margin-left: 103px;
 }
 
 .form-names{
@@ -500,6 +502,9 @@ color: rgba(245, 245, 245, 0.731);
     margin-right: revert ;
     font-size: smaller;
   }
+  .staffzohasi{
+    margin-top: 0px;
+  }
   .skills{
     display: flex;
     flex-direction: column;
@@ -528,6 +533,9 @@ color: rgba(245, 245, 245, 0.731);
     margin-left: 0;
     font-size: smaller;
   }
+  .projects{
+    padding-bottom: 0;
+  }
   .projects-holder{
     display: flex;
     flex-direction: column;
@@ -553,21 +561,17 @@ color: rgba(245, 245, 245, 0.731);
     flex-direction: row;
     justify-content: space-between;
   }
-
   .start>h3{
-  
-    padding-bottom: 5px;
-    margin-right: 220px;
-    margin-left: 0;
     overflow-y: hidden;
-
   }
-  .start>a>i{
-    margin-left: 0px;
-    margin-right: 35px;
-    overflow-y: hidden;
-    margin-top: 5px;
 
+  .start>h3>b{
+    padding-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  .start>a>i{
+    overflow-y: hidden;
   } 
   .para>p{
     padding-right: 0;
@@ -578,13 +582,57 @@ color: rgba(245, 245, 245, 0.731);
   }
   .contact{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
-  .foto>{
-  width: 100%;
-  height: 450px;
-  color: aliceblue;
-  margin-top: 10px;
+  .foto{
+    margin-left: 50px;
+    height: 150px;
+    margin-top: 120px;
+    margin-right: 0px;
+  }
+  .break{
+  color: rgb(224, 212, 212);
+    
+    font-size: 30px;
+    margin-right: 40px;
+  }
+  .break2{
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .break3{
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .form-holder{
+    width: 100%;
+    margin-left: 0;
+    margin: 0;
+  }
+  .form-holder>form{
+   
+  }
+  .form-title>h2{
+    margin-right: 185px;
+  }
+  .form-title>hr{
+    margin-left: 4px;
+  }
+  .form-names{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .form-email{
+   margin-right: 0;
+   margin-left: 0;
+  }
+  .form-text{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .form-button{
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 

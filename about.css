@@ -591,32 +591,26 @@ color: rgba(245, 245, 245, 0.731);
     margin-right: 0px;
   }
   .break{
-  color: rgb(224, 212, 212);
-    
-    font-size: 30px;
-    margin-right: 40px;
+    display: none;
   }
-  .break2{
-    font-size: 30px;
-    margin-right: 10px;
-  }
-  .break3{
-    font-size: 30px;
-    margin-right: 10px;
-  }
+
   .form-holder{
     width: 100%;
     margin-left: 0;
     margin: 0;
   }
   .form-holder>form{
-   
+   width: 80%;
+   margin-left: 40px;
+  }
+  .form-title{
+    display: contents;
   }
   .form-title>h2{
-    margin-right: 185px;
+    margin-left: 40px;
   }
   .form-title>hr{
-    margin-left: 4px;
+    margin-left: 40px;
   }
   .form-names{
     margin-right: 0;

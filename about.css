@@ -212,6 +212,7 @@ h2 {
   height: 60%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -226,7 +227,6 @@ h2 {
 .photodi>p{
   background-color: rgba(245, 245, 245, 0.731);
   width: 30%;
-  margin-left: 180px;
   margin-top: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -271,14 +271,14 @@ justify-content: space-between;
 .para{
 width: 100%;
 height: 33%;
+display: flex;
 }
 
 .para>p {
-  padding-right: 364px;
   padding-top: 15px;
   color: rgb(141, 143, 164);
   font-family: "Outfit", sans-serif;
-  margin-right: 35px;
+  margin-left: 17px;
 }
 
 .end{
@@ -478,10 +478,8 @@ color: rgba(245, 245, 245, 0.731);
   .photo{
     display: none;
   }
-  .parent-container{
-  
 
-  }
+  
   .about{
     margin-right: 10px;
     margin-left: 40px;
@@ -512,9 +510,7 @@ color: rgba(245, 245, 245, 0.731);
   .skillsword{
     margin-right: 190px;
   }
-  .list1{
 
-  }
   .list1>h2{
     margin-right: 70px;
   }

@@ -491,9 +491,7 @@ color: rgba(245, 245, 245, 0.731);
     flex-direction: column;
     width: 100%;
   }
-  .skillsword{
 
-  }
   .list1{
     width: 100%;
 
@@ -567,7 +565,7 @@ color: rgba(245, 245, 245, 0.731);
 
 }
 
-@media (min-width: 500px)  {
+@media (min-width: 501px)  {
   *{
     margin: 0;
     overflow-x: hidden;
@@ -605,9 +603,7 @@ color: rgba(245, 245, 245, 0.731);
     flex-direction: column;
     width: 100%;
   }
-  .skillsword{
 
-  }
   .list1{
     width: 100%;
 

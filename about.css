@@ -572,12 +572,105 @@ color: rgba(245, 245, 245, 0.731);
     margin: 0;
     overflow-x: hidden;
   }
-  .links-about{
+  nav{
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .links-about{
+    margin-left: 15px;
+    gap: 14px;
+  }
+  .Port{
+    overflow-y: hidden;
+  }
+  .Port>h2{
+    margin-right: 10px;
   }
   .about-info{
-    margin-right: 0;
+    margin-right: 14px;
+  }
+  .about{
+    margin-left: 40px;
+    margin-top: 130px;
+  }
+  .photo{
+    display: none;
+  }
+  .staffzohasi{
+    margin-top: 0px;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .skillsword{
 
   }
+  .list1{
+    width: 100%;
+
+  }
+  .list1>h2{
+    display: flex;
+    justify-content: left;
+    margin-left: 35px;
+  }
+  .list2{
+    margin-top: 100px;
+  }
+  .list2>h2{
+    display: flex;
+    justify-content: left;
+    margin-left: 35px;
+  }
+.projects-holder{
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-holder>div{
+    width: 90%;
+    display: flex;
+  }
+  .photodi>h1{
+    font-size: 23px;
+    margin-top: 15px;
+  }
+  .photodi>p{
+    width: 45%;
+  }
+  .start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .start>h3{
+    overflow-y: hidden;
+  }
+
+  .start>h3>b{
+    padding-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  .start>a>i{
+    overflow-y: hidden;
+  } 
+
+  .end>p{
+    overflow-y: hidden;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .foto{
+   display: none;
+  }
+
+  .form-holder{
+    width: 80%;
+  }
+
 }

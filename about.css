@@ -567,3 +567,17 @@ color: rgba(245, 245, 245, 0.731);
 
 }
 
+@media (min-width: 500px)  {
+  *{
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .links-about{
+    display: flex;
+    
+  }
+  .about-info{
+    margin-right: 0;
+
+  }
+}
